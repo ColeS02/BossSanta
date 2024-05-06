@@ -1,0 +1,5 @@
+name: BossSanta
+version: '${project.version}'
+main: com.unclecole.bosssanta.BossSanta
+api-version: 1.18
+authors: [ Cole ]

@@ -1,0 +1,21 @@
+name: NoFlyZone
+version: 2.0.0
+main: me.clip.noflyzone.NoFlyZone
+api-version: 1.13
+depend: [WorldGuard, WorldEdit]
+authors: [extended_clip]
+description: Stop players from flying in certain regions
+commands:
+  noflyzone:
+    description: NoFlyZone admin command
+    aliases: [nfz]
+permissions:
+  noflyzone.bypass:
+    description: allowed to fly anywhere
+    default: op
+  noflyzone.admin:
+    description: allowed to use commands
+    default: op
+  noflyzone.autofly.all:
+    description: albility to fly autofly in all autofly regions
+    default: op
